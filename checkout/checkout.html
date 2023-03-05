@@ -1,0 +1,284 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>checkout</title>
+    <link rel="stylesheet" href="https://kit.fontawesome.com/1ee9a64313.css" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css" integrity="sha512-SzlrxWUlpfuzQ+pcUCosxcglQRNAq/DZjVsC0lE40xsADsfeQoEypE+enwcOiGjk/bSuGGKHEyjSoQ1zVisanQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/w3-css/4.1.0/w3.css" integrity="sha512-Ef5r/bdKQ7JAmVBbTgivSgg3RM+SLRjwU0cAgySwTSv4+jYcVeDukMp+9lZGWT78T4vCUxgT3g+E8t7uabwRuw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="checkout.css">
+</head>
+<body>
+    <header>
+        <!-- nav -->
+        <nav>
+            <div class="search">
+                <div>
+                    <input type="text" placeholder="    Search">
+                </div>
+                <div>
+                    <i class="fa fa-search"></i> 
+                </div>         
+            </div>
+            <div>
+                <h1>MARWAN NASSER</h1>
+            </div>
+            <div class="nav-icon">
+                <i class="fa-solid fa-user"></i>
+                <i class="fa-regular fa-heart"></i>
+                <i class="fa regular fa-cart-shopping"></i>
+            </div>
+        </nav>
+        <div>
+            <ul class="nav-2">
+                <li class="menu">
+                    <a href="../index.html">HOME <i class="fa-solid fa-angle-down"></i></a>
+                    <ul class="submenu">
+                        <li><a href="..//about/about.html">ABOUT</a></li>
+                    </ul>
+                </li>
+                <li class="menu">
+                    <a href="..//about/about.html">ABOUT <i class="fa-solid fa-angle-down"></i></a>
+                    <ul class="submenu">
+                        <li><a href="#">marwan</a></li>
+                        <li><a href="#">marwan</a></li>
+                        <li><a href="#">marwan</a></li>
+                        <li><a href="#">marwan</a></li>
+
+                    </ul>
+                </li>
+                <li><a href="shop.html">SHOP</a></li>
+                <li><a href="#">CATALOGUE</a></li>
+                <li><a href="#">NEW ARRIVALS</a></li>
+                <li><a href="#">CONTACT</a></li>
+            </ul>
+        </div>
+    </header>
+    <!-- nav end -->
+    <div class="sec-2">
+        <div class="d1">
+            <ul>
+                <li><a href="..//index.html"><span>Home</span></a></li>
+                <li>/</li>
+                <li><a href="product.html"><span>Cart</span></a></li>
+                <li>/</li>
+                <li><a href="product.html"><strong>Checkout</strong></a></li>
+            </ul>
+        </div>
+    </div>
+    <div class="sec-3">
+        <h4>Returning customer?<span>Click here</span> to login</h4>
+    </div>
+    <div class="sec-4">
+        <div class="aside-left">
+            <h1>Billing details</h1>
+            <aside>
+                <form action="">
+                    <label for="country">country</label>
+                    <br>
+                    <select name="country" id="" >
+                        <option selected value="select your country">select your country</option>
+                        <option value="egypt">egypt</option>
+                        <option value="egypt">egypt</option>
+                        <option value="egypt">egypt</option>
+                    </select>
+                    <div class="name">
+                        <div>
+                            <label for="first name">First name</label>
+                            <br>
+                            <input type="text" required>
+                        </div>
+                        <div>
+                            <label for="first name">Last name</label>
+                            <br>
+                            <input type="text" required>
+                        </div>
+                    </div>
+                    <div class="width-100">
+                        <label for="first name">Company name</label>
+                        <br>
+                        <input type="text">
+                        <br>
+                        <label for="first name">Address</label>
+                        <br>
+                        <input type="text" required>
+                        <input type="text">
+                    </div>
+                    <div class="name">
+                        <div>
+                            <label for="first name">state/country</label>
+                            <br>
+                            <input type="text" required>
+                        </div>
+                        <div>
+                            <label for="first name">posta/zip</label>
+                            <br>
+                            <input type="text" required>
+                        </div>
+                    </div>
+                    <div class="name">
+                        <div>
+                            <label for="first name">Email address</label>
+                            <br>
+                            <input type="email" required>
+                        </div>
+                        <div>
+                            <label for="first name">phone</label>
+                            <br>
+                            <input type="number" required>
+                        </div>
+                    </div>
+                    <input type="checkbox">
+                    <label for="">Creat an account</label>
+                    <br>
+                    <input type="checkbox">
+                    <label for="">ship to a different address</label>
+                    <br>
+                    <label for="">order notes</label>
+                    <br>
+                    <textarea name="" id="" cols="63" rows="5">
+
+                    </textarea>
+                </form>
+            </aside>
+        </div>
+        <div class="aside-right">
+            <h1>Coupon code</h1>
+            <div>
+                <aside>
+                    <div class="form">
+                        <p style="color: black;">Enter your coupon code if you have one</p>
+                        <form action="/">
+                            <button>send</button>
+                            <input type="email" placeholder="">
+                        </form>
+                    </div>
+                </aside>
+            </div>
+            <h1>your order</h1>
+            <aside class="aside-2">
+                <table>
+                    <thead>
+                        <tr>
+                          <th><h2>Product</h2></th>
+                          <th><h2>total</h2></th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td><p>Top Up T-shirt x 1</p></td>
+                            <td><p>$250.00</p></td>
+                        </tr>
+                        <tr>
+                            <td><p>polo shirt x 1 </p></td>
+                            <td><p>$100.00</p></td>
+                        </tr>
+                        <tr>
+                            <td><h3>Cart subtotal</h3></td>
+                            <td><p>$350.00</p></td>
+                        </tr>
+                        <tr>
+                            <td><h3>Order total</h3></td>
+                            <td><h3> $350.00</h3></td>
+                        </tr>
+                    </tbody>
+                </table>
+                <div>
+                    <a href="#" class="a1">direct bank transfer</a>
+                    <a href="#" class="a2">cheque payment</a>
+                    <a href="#" class="a3">paypal</a>
+                </div>
+                <a href="thankyou.html" class="a4">PLACE PRDER</a>
+            </aside>
+        </div>
+    </div>
+    <div class="footer">
+        <div class="left-footer">
+            <div>
+                <h1>Navigation</h1>
+            </div>
+            <div class="left-ul">
+                <div>
+                    <ul>
+                        <li><a href="#">Sell online</a></li>
+                        <li><a href="#">Features</a></li>
+                        <li><a href="#">Shopping cart</a></li>
+                        <li><a href="#">Store builder</a></li>
+                    </ul>
+                </div>
+                <div>
+                    <ul>
+                        <li><a href="#">Mobile commerce</a></li>
+                        <li><a href="#">Dropshipping</a></li>
+                        <li><a href="#">Website development</a></li>
+                    </ul>
+                </div>
+                <div>
+                    <ul>
+                        <li><a href="#">Point of sale</a></li>
+                        <li><a href="#">Hardware</a></li>
+                        <li><a href="#">Software</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <div class="right-footer">
+            <div class="right-ul">
+                <div>
+                    <h1>Promo</h1>
+                </div>
+                <div>
+                    <h1>Contact info</h1>
+                </div>
+            </div>
+            <div class="right-ul-li">
+                <div>
+                    <ul>
+                        <li><img src="..//WebSite شرحه بالتفصيل/hero_1.jpg" alt="" width="300px" height="150px" style="border-radius: 5px;"></li>
+                        <li><a href="#"><h1 style="color: blueviolet;font-size: 20px;"> Finding Your Perfect Shoes</h1></a></li>
+                        <li><a href="#">Promo from january 15-25,2019</a></li>                        </ul>
+                </div>
+                <div style="padding-left: 80px;" >
+                    <ul>
+                        <li style="display: flex; justify-content: space-between;padding-bottom: 30px;">
+                            <div>
+                                <i class="fa-solid fa-location-dot"></i>
+                            </div>
+                            <div style="color: black;">6th of october , giza , egypt</div>
+                        </li>
+                        <li style="display: flex;padding-bottom: 30px;">
+                            <div>
+                                <i class="fa-solid fa-phone"></i>
+                            </div>
+                            <div><a href="/">+201119241325</a></div>
+                        </li>
+                        <li style="display: flex; justify-content: space-between;padding-bottom: 30px;">
+                            <div>
+                                <i class="fa-solid fa-envelope"></i>
+                            </div>
+                            <div><a href="/" style="color: black;">mmarwannaserr@gmail.com</a></div>
+                        </li>
+                        <li>
+                            <div class="form">
+                                <h2 style="color: black;">subscribe</h2>
+                                <form action="/">
+                                    <button>send</button>
+                                    <input type="email" placeholder="Email">
+                                </form>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+      </div>
+    </div>
+    <div class="buttom-footer">
+        Copyright &copy; 2021 All rights reserved | This template is made with <i class="fa-solid fa-heart"></i> by <span style="color: blueviolet;">marwan nasser</span>
+    </div>  
+      <!-- footer -->
+    
+</body>
+</html>

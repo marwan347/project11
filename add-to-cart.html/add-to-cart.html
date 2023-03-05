@@ -1,0 +1,254 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>product page</title>
+    <link rel="stylesheet" href="https://kit.fontawesome.com/1ee9a64313.css" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css" integrity="sha512-SzlrxWUlpfuzQ+pcUCosxcglQRNAq/DZjVsC0lE40xsADsfeQoEypE+enwcOiGjk/bSuGGKHEyjSoQ1zVisanQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/w3-css/4.1.0/w3.css" integrity="sha512-Ef5r/bdKQ7JAmVBbTgivSgg3RM+SLRjwU0cAgySwTSv4+jYcVeDukMp+9lZGWT78T4vCUxgT3g+E8t7uabwRuw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="add-to-cart.css">
+</head>
+<body>
+    <header>
+        <!-- nav -->
+        <nav>
+            <div class="search">
+                <div>
+                    <input type="text" placeholder="    Search">
+                </div>
+                <div>
+                    <i class="fa fa-search"></i> 
+                </div>         
+            </div>
+            <div>
+                <h1>MARWAN NASSER</h1>
+            </div>
+            <div class="nav-icon">
+                <i class="fa-solid fa-user"></i>
+                <i class="fa-regular fa-heart"></i>
+                <i class="fa regular fa-cart-shopping"></i>
+            </div>
+        </nav>
+        <div>
+            <ul class="nav-2">
+                <li class="menu">
+                    <a href="../index.html">HOME <i class="fa-solid fa-angle-down"></i></a>
+                    <ul class="submenu">
+                        <li><a href="..//about/about.html">ABOUT</a></li>
+                    </ul>
+                </li>
+                <li class="menu">
+                    <a href="..//about/about.html">ABOUT <i class="fa-solid fa-angle-down"></i></a>
+                    <ul class="submenu">
+                        <li><a href="#">marwan</a></li>
+                        <li><a href="#">marwan</a></li>
+                        <li><a href="#">marwan</a></li>
+                        <li><a href="#">marwan</a></li>
+
+                    </ul>
+                </li>
+                <li><a href="shop.html">SHOP</a></li>
+                <li><a href="#">CATALOGUE</a></li>
+                <li><a href="#">NEW ARRIVALS</a></li>
+                <li><a href="#">CONTACT</a></li>
+            </ul>
+        </div>
+    </header>
+    <!-- nav end -->
+    <div class="sec-2">
+        <div class="d1">
+            <ul>
+                <li><a href="..//index.html"><span>Home</span></a></li>
+                <li>/</li>
+                <li><a href="product.html"><strong>Cart</strong></a></li>
+            </ul>
+        </div>
+    </div>
+    <div class="sec-3">
+        <table>
+            <thead>
+              <tr>
+                <th><p><h1>Image</h1></p></th>
+                <th><h1> Product </h1> </th>
+                <th><p><h1> Price</h1></p></th>
+                <th><p><h1>Quantity</h1></p></th>
+                <th><p><h1>Total</h1></p></th>
+                <th><p><h1>Remove</h1></p></th>
+              </tr>
+              
+            </thead>
+            <tbody>
+                <tr>
+                  <td><img src="..//WebSite شرحه بالتفصيل/cloth_1.jpg" alt="img" width="75px" height="75px"></td>
+                  <td><h3>Top Up T-shirt</h3></td>
+                  <td><h3>$49.00</h3></td>
+                  <td>
+                    <div class="quantity">
+                        <form action="#" >
+                            <button class="minus">-</button>
+                            <input type="number" name="quantity" value="1" min="1" max="5">
+                            <button class="plus">+</button>
+                        </form>
+                    </div>
+                  </td>
+                  <td><h3>$49.00</h3></td>
+                  <td><span class="remove">x</span></td>
+                </tr>
+                <tr>
+                  <td><img src="..//WebSite شرحه بالتفصيل/cloth_2.jpg" alt="img" width="75px" height="75px"></td>
+                  <td><h3>Polo shirt</h3></td>
+                  <td><h3>$49.00</h3></td>
+                  <td>
+                    <div class="quantity2">
+                        <form action="#" >
+                            <button class="minus">-</button>
+                            <input type="number" name="quantity" value="1" min="1" max="5">
+                            <button class="plus">+</button>
+                        </form>
+                    </div>
+                  </td>
+                  <td><h3>$49.00</h3></td>
+                  <td><span class="remove">x</span></td>
+                </tr>
+        </table>
+    </div>
+    <div class="s4">
+        <div class="left">
+            <div class="div1">
+                <div>
+                    <button class="update">UPDATE CART</button>
+                </div>
+                <div>
+                    <button  class="continue">CONTINUE SHOPPING</button>
+                </div>
+                
+            </div>
+            <div class="div2">
+                <h1>Coupon</h1>
+                <p>Enter your Coupon if you have one</p>
+            </div>
+            <div class="div3">
+                <form action="#">
+                   <input type="text" name="Coupon" placeholder="  Coupon Code">
+                </form>
+                <button>APPLY COUPON</button>
+            </div>
+        </div>
+        <div class="right">
+            <div class="div1"> 
+                <div><h1>CART TOTALS</h1></div>
+            </div>
+            <div class="div2">
+                <div>
+                    <div>
+                        <h4>Subtotal</h4>
+                    </div>
+                    <div>
+                        <h4>Total</h4>
+                    </div>
+                </div>
+                <div> 
+                    <div>
+                        <h4>$230.00</h4>
+                    </div>
+                    <div>
+                        <h4>$230.00</h4>
+                    </div>
+                </div>
+            </div>
+            <div class="div3">
+                <a href="..//checkout/checkout.html">PROCEED TO CHECKOUT</a>
+            </div>
+            
+        </div>
+    </div>
+    <div class="footer">
+        <div class="left-footer">
+            <div>
+                <h1>Navigation</h1>
+            </div>
+            <div class="left-ul">
+                <div>
+                    <ul>
+                        <li><a href="#">Sell online</a></li>
+                        <li><a href="#">Features</a></li>
+                        <li><a href="#">Shopping cart</a></li>
+                        <li><a href="#">Store builder</a></li>
+                    </ul>
+                </div>
+                <div>
+                    <ul>
+                        <li><a href="#">Mobile commerce</a></li>
+                        <li><a href="#">Dropshipping</a></li>
+                        <li><a href="#">Website development</a></li>
+                    </ul>
+                </div>
+                <div>
+                    <ul>
+                        <li><a href="#">Point of sale</a></li>
+                        <li><a href="#">Hardware</a></li>
+                        <li><a href="#">Software</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <div class="right-footer">
+            <div class="right-ul">
+                <div>
+                    <h1>Promo</h1>
+                </div>
+                <div>
+                    <h1>Contact info</h1>
+                </div>
+            </div>
+            <div class="right-ul-li">
+                <div>
+                    <ul>
+                        <li><img src="..//WebSite شرحه بالتفصيل/hero_1.jpg" alt="" width="300px" height="150px" style="border-radius: 5px;"></li>
+                        <li><a href="#"><h1 style="color: blueviolet;font-size: 20px;"> Finding Your Perfect Shoes</h1></a></li>
+                        <li><a href="#">Promo from january 15-25,2019</a></li>                        </ul>
+                </div>
+                <div style="padding-left: 80px;" >
+                    <ul>
+                        <li style="display: flex; justify-content: space-between;padding-bottom: 30px;">
+                            <div>
+                                <i class="fa-solid fa-location-dot"></i>
+                            </div>
+                            <div style="color: black;">6th of october , giza , egypt</div>
+                        </li>
+                        <li style="display: flex;padding-bottom: 30px;">
+                            <div>
+                                <i class="fa-solid fa-phone"></i>
+                            </div>
+                            <div><a href="/">+201119241325</a></div>
+                        </li>
+                        <li style="display: flex; justify-content: space-between;padding-bottom: 30px;">
+                            <div>
+                                <i class="fa-solid fa-envelope"></i>
+                            </div>
+                            <div><a href="/" style="color: black;">mmarwannaserr@gmail.com</a></div>
+                        </li>
+                        <li>
+                            <div class="form">
+                                <h2 style="color: black;">subscribe</h2>
+                                <form action="/">
+                                    <button>send</button>
+                                    <input type="email" placeholder="Email">
+                                </form>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+      </div>
+    </div>
+    <div class="buttom-footer">
+        Copyright &copy; 2021 All rights reserved | This template is made with <i class="fa-solid fa-heart"></i> by <span style="color: blueviolet;">marwan nasser</span>
+    </div>  
+      <!-- footer -->
+    
+</body>
+</html>

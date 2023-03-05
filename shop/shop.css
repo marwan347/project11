@@ -1,0 +1,433 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+/* nav */
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: white;
+    width:100%;
+    border-bottom: 1px solid rgba(207, 207, 207, 0.427);
+    padding: 50px 50px 80px 100px;    top: 0;
+    z-index: 3;
+}
+nav div {
+    width: 30%;
+    text-align: center;
+}
+
+nav h1{
+    border: 3px solid grey;
+    padding: 5px 10px 5px;
+    justify-content: center;
+    align-items: center;
+}
+
+.search{
+    margin-left: 100px;
+    display: flex;
+    justify-content: space-between;
+}
+nav input {
+    border: none ;
+    outline: none;
+    padding: 11px 20px;
+    border-radius: 25px ;
+    transition: 0.5s;
+}
+.search input:hover{
+    padding: 11px 10px;
+}
+
+.search .fa-search{
+    color: #606770;
+    position: absolute;
+    font-size: 15px;
+    left: 178px;
+    top: 90px;
+}
+.nav-icon{
+    color: #606770;
+    margin-left: 10px;
+}
+.nav-icon i {
+    margin-left: 15px;
+}
+.nav-icon i:hover {
+    color: #000000;
+    font-size: 18px;
+}
+ul{
+    padding: 0;
+    margin: 0;
+    list-style: none;
+}
+.nav-2{
+    width: 700px;
+    min-height: 40px;
+    margin: 20px auto;
+    padding: 0 20px ;
+}
+.nav-2 > li{
+    color: #000000;
+    padding: 15px 10px;
+    float: left;
+}
+.nav-2 > li a{
+    color: #000000;
+    text-decoration: none;
+    padding-right: 10px;
+}
+.nav-2  li a:hover{
+    color: blueviolet;
+}
+.nav-2 .menu{
+    position: relative;
+}
+.nav-2 .menu .submenu {
+    position: absolute;
+    top: 45px;
+    left: 0;
+    width: 100px;
+    background-color: #fff;
+    padding: 10px;
+    -webkit-box-shadow: 0 1px 1px  rgba(0, 0, 9, 0.5);
+    -moz-box-shadow: 0 1px 1px  rgba(0, 0, 9, 0.5);   
+    box-shadow: 0 1px 1px  rgba(0, 0, 9, 0.5);
+    display: none;
+}
+.nav-2 .submenu li{
+    padding: 10px;
+}
+.nav-2 .submenu li a{
+    color: #000000;
+    text-decoration: none;
+}
+.nav-2 .submenu li a:hover{
+    color: blueviolet;
+}
+.nav-2 .menu .submenu {
+    display: none;
+}
+.sec-2 .d1{
+    background-color: #e6e6e6;
+    padding: 10px;
+}
+.sec-2 ul {
+   display: flex;
+   justify-content: flex-start;
+   align-items: center;
+   padding-left: 160px;
+   font-size: 16px;
+}
+.sec-2 ul li {
+    padding-right: 10px;
+    color: #a3a3a3;
+}
+.sec-2 ul li span {
+
+    color: blueviolet;
+}
+.sec-2 ul a{
+    list-style: none;
+    text-decoration: none;
+    color: #000000;
+}
+/* nav end */
+/* sec-3 */
+.sec-3{
+    padding: 50px;
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+}
+.shop-div1{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    padding-left: 22px;
+    padding-right: 45px;
+}
+
+.btn button{
+    width: 130px;
+    height: 50px;
+    border: none;
+}
+.btn button:hover{
+    color: #fff;
+    box-shadow: 0px 1px 10px rgb(0, 0, 0);
+}
+.aside-width{
+    width:20%;
+}
+.shop-width{
+    width:75%;
+}
+.c4-div1{
+    display: flex;
+    justify-content: center;
+}
+.c4-div1 .border{
+    background-color: blueviolet;
+    background-size: 1px 1px;
+    width: 50px;
+    height: 5px;
+    border: none;
+    border-radius: 5px ;
+    position: absolute;
+    left: 730px;
+}
+.c4-div2{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin: 25px 25px;
+}
+.s2-c4-img1{
+    width: 400px;
+    height: 56vh;
+    background-color: #ffffff;
+    border: 0.5px solid #a9a9a929;
+    margin-right: 20px;
+}
+.c4-t{
+    display: flex;
+    justify-content: center;
+}
+.c4-t p {
+    color: #8c8d8f;
+
+}
+.c4-t h1 {
+    font-size : 20px ;
+    color: blueviolet;
+}
+.c4-div3{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.menu-ul{
+    padding: 50px;
+    width: 100%;
+}
+.menu-ul ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+}
+.menu-ul  li {
+    border: 1px solid #9090904f;
+    padding: 5px 10px 5px 10px;
+    border-radius: 100%;
+    margin-right: 4px;
+}
+.menu-ul .ul-1 {
+    background-color: blueviolet;
+    color: #fff;
+}
+
+aside{
+    border: 1px solid #9090904f;
+    width: 100%;
+    height: 28vh;
+    padding: 25px;
+    margin-left: 25px;
+    margin-top: 25px;
+    float: left;
+}
+.aside-2{
+    border: 1px solid #9090904f;
+    width: 100%;
+    height: 70vh;
+    padding: 25px;
+    margin-left: 25px;
+    margin-top: 25px;
+    float: left;
+    
+}
+.aside-2 i span {
+    color: #000000;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif, Courier, monospace;
+}
+.aside-2 > div , form{
+    padding-bottom: 20px;
+}
+.aside-2 form > div {
+    padding-bottom: 10px;
+}
+.red{
+    color: red;
+}
+.green{
+    color: green;
+}
+.Blue{
+    color: Blue;
+}
+.Purple{
+    color: Purple;
+}
+.aside-2 .price{
+    color: #4b4b4b;
+}
+aside .categ {
+    display: flex;
+    justify-content: space-between;
+}
+.categ a , p {
+    padding: 12px 0 12px 0;
+    text-decoration: none;
+}
+.left-aside div{
+    color: blueviolet;
+    padding: 12px 0 12px 0;
+}
+.contaner-3{
+    display: flex;
+    justify-content: space-between;
+    padding: 100px 100PX 100PX 100PX;
+    border-bottom: 1px solid rgba(207, 207, 207, 0.427);
+    width: 100%;
+
+}
+.pic-c3{
+    background-image:linear-gradient(rgba(255, 255, 255, 0), rgba(0, 0, 0, 0.808)) ,url("..//WebSite شرحه بالتفصيل/women.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 400px;
+    height: 70vh;
+    display: flex;
+    align-items: flex-end;
+    transition: 0.5s;
+}
+.pic-c3:hover {
+    background-color: #ffffff;
+    height: 75vh;
+}
+.pic2-c3{
+    background-image: linear-gradient(rgba(255, 255, 255, 0), rgba(0, 0, 0, 0.734)) , url("..//WebSite شرحه بالتفصيل/children.jpg") ;
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 400px;
+    height: 70vh;
+    display: flex;
+    align-items: flex-end;
+    transition: 0.5s;
+}
+.pic2-c3:hover {
+    background-color: #ffffff;
+    height: 75vh;
+}
+.pic3-c3{
+    background-image:linear-gradient(rgba(255, 255, 255, 0), rgba(0, 0, 0, 0.734)) , url("..//WebSite شرحه بالتفصيل/men.jpg") ;
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 400px;
+    height: 70vh;
+    display: flex;
+    align-items: flex-end;
+    transition: 0.5s;
+}
+.pic3-c3:hover {
+    background-color: #ffffff;
+    height: 75vh;
+}
+
+.contaner-3 div{
+    color: #ffffff;
+    padding-left:10px ;
+    
+}
+.c3-div1{
+    display: flex;
+    justify-content: center;
+    padding: 50px 50px;
+
+}
+.c3-div2{
+    padding: 50px;
+}
+.c3-div1 .border{
+    background-color: blueviolet;
+    background-size: 1px 1px;
+    width: 50px;
+    height: 5px;
+    border: none;
+    border-radius: 5px ;
+    position: absolute;
+    left: 300px;
+}
+/* footer */
+.footer{
+    border-top: 1px solid rgba(207, 207, 207, 0.427);
+    padding: 50px 50px;
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+}
+.left-footer{
+    width:40%;
+}
+.left-ul{
+    display: flex;
+    justify-content: space-between;
+}
+.footer ul , a {
+    list-style: none;
+    text-decoration: none;
+}
+.footer li {
+    padding-bottom: 10px;
+    color: #8c8d8f;
+}
+.right-footer{
+    width:40%;
+}
+.right-ul{
+    display: flex;
+    justify-content: space-between;
+}
+.right-ul-li{
+    display: flex;
+    justify-content: space-between;
+}
+.right-ul-li li i{
+    color: blueviolet;
+    padding: 5px;
+}
+.buttom-footer{
+    background-color: rgb(255, 255, 255);
+    color: #8c8d8f;
+    font-size: 12px;
+    text-align: center;
+    height: 20vh;
+    padding: 50px 50px 50px 0 ;
+}
+.footer input{
+    border: 1px solid gray;
+    border-radius: 5px;
+    position: relative;
+    padding: 10px 20px 11px 20px;
+}
+.footer button{
+    position: absolute;
+    padding: 10px 20px;
+    top: 3782px;
+    right: 69px;
+    background-color: blueviolet;
+    border: none;
+    border-radius: 5px;
+    font-size: 14px;
+    color: rgb(255, 255, 255);
+    z-index: 1;
+}
+.form{
+    padding-top: 100px;
+}
+/* footer end */

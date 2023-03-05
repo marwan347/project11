@@ -1,0 +1,421 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;;
+}
+/* nav */
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: white;
+    width:100%;
+    border-bottom: 1px solid rgba(207, 207, 207, 0.427);
+    padding: 50px 50px 80px 100px;    top: 0;
+    z-index: 3;
+}
+nav div {
+    width: 30%;
+    text-align: center;
+}
+
+nav h1{
+    border: 3px solid grey;
+    padding: 5px 10px 5px 0 ;
+    justify-content: center;
+    align-items: center;
+}
+
+.search{
+    margin-left: 100px;
+    display: flex;
+    justify-content: space-between;
+
+}
+.search input{
+    border: none ;
+    outline: none;
+    padding: 11px 20px;
+    border-radius: 25px ;
+    transition:  1s;
+}
+.search input:hover{
+    padding: 11px 10px;
+}
+
+.search .fa-search{
+    color: #606770;
+    position: absolute;
+    font-size: 15px;
+    left: 178px;
+    top: 90px;
+}
+.nav-icon{
+    color: #606770;
+    margin-left: 10px;
+}
+.nav-icon i {
+    margin-left: 15px;
+}
+.nav-icon i:hover {
+    color: #000000;
+    font-size: 18px;
+}
+ul{
+    padding: 0;
+    margin: 0;
+    list-style: none;
+}
+.nav-2{
+    width: 700px;
+    min-height: 40px;
+    margin: 20px auto;
+    padding: 0 20px ;
+}
+.nav-2 > li{
+    color: #000000;
+    padding: 15px 10px;
+    float: left;
+}
+.nav-2 > li a{
+    color: #000000;
+    text-decoration: none;
+    padding-right: 10px;
+}
+.nav-2  li a:hover{
+    color: blueviolet;
+}
+.nav-2 .menu{
+    position: relative;
+}
+.nav-2 .menu .submenu {
+    position: absolute;
+    top: 45px;
+    left: 0;
+    width: 100px;
+    background-color: #fff;
+    padding: 10px;
+    -webkit-box-shadow: 0 1px 1px  rgba(0, 0, 9, 0.5);
+    -moz-box-shadow: 0 1px 1px  rgba(0, 0, 9, 0.5);   
+    box-shadow: 0 1px 1px  rgba(0, 0, 9, 0.5);
+    display: none;
+}
+.nav-2 .submenu li{
+    padding: 10px;
+}
+.nav-2 .submenu li a{
+    color: #000000;
+    text-decoration: none;
+}
+.nav-2 .submenu li a:hover{
+    color: blueviolet;
+}
+.nav-2 .menu:hover .submenu {
+    display: none;
+}
+
+/* nav end */
+/* sec 2 */
+.boot-background{
+    background-image: url("WebSite شرحه بالتفصيل/hero_1.jpg");
+    background-size: cover;
+    height: 90vh;
+}
+.boot-text{
+    width: 450px;
+    height: 1400px;
+    position: absolute;
+    text-align: left;
+    top: 400px;
+    left: 870px;
+}
+.boot-text div{
+    margin-bottom: 50px;
+    font-size: 20px;
+}
+.boot-text h1{
+    font-size: 55px;
+}
+.boot-text button{
+    width: 150px;
+    height: 50px;
+    background-color: blueviolet;
+    border: none;
+    border-radius: 5px;
+    font-size: 18px;
+    color: rgb(255, 255, 255);
+    transition: 0.5s;
+}
+.boot-text button:hover {
+    background-color: rgb(123, 37, 204);
+    color: #fff;
+    box-shadow: 0px 1px 10px rgb(0, 0, 0);
+}
+.boot-text p{
+    margin-bottom: 15px;
+    font-size: 17px;
+}
+.container-2{
+    border-bottom: 1px solid rgba(207, 207, 207, 0.427);
+    padding: 70px 50PX 70PX 50PX;
+    display: flex;
+    justify-content: space-around;
+}
+.container-2 >.inner-c2{
+    display: flex;
+    justify-content: space-between;
+}
+.inner-c2{
+    width: 456px;
+}
+.inner-c2 i {
+    margin-RIGHT:30px;
+    color: blueviolet;
+}
+.inner-c2 p {
+    color: #8c8d8f;
+}
+.fa-truck{
+    transform: rotatey(180deg);
+}
+.contaner-3{
+    display: flex;
+    justify-content: space-between;
+    padding: 100px 100PX 100PX 100PX;
+    border-bottom: 1px solid rgba(207, 207, 207, 0.427);
+    width: 100%;
+
+}
+.pic-c3{
+    background-image:linear-gradient(rgba(255, 255, 255, 0), rgba(0, 0, 0, 0.808)) ,url("WebSite شرحه بالتفصيل/women.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 400px;
+    height: 70vh;
+    display: flex;
+    align-items: flex-end;
+    transition: all 0.5s ;
+}
+.pic-c3:hover {
+    background-color: #ffffff;
+    height: 75vh;
+}
+.pic2-c3{
+    background-image: linear-gradient(rgba(255, 255, 255, 0), rgba(0, 0, 0, 0.734)) , url("WebSite شرحه بالتفصيل/children.jpg") ;
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 400px;
+    height: 70vh;
+    display: flex;
+    align-items: flex-end;
+    transition: 0.5s;
+}
+.pic2-c3:hover {
+    background-color: #ffffff;
+    height: 75vh;
+}
+.pic3-c3{
+    background-image:linear-gradient(rgba(255, 255, 255, 0), rgba(0, 0, 0, 0.734)) , url("WebSite شرحه بالتفصيل/men.jpg") ;
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 400px;
+    height: 70vh;
+    display: flex;
+    align-items: flex-end;
+    transition: 0.5s;
+}
+.pic3-c3:hover {
+    background-color: #ffffff;
+    height: 75vh;
+}
+
+.contaner-3 div{
+    color: #ffffff;
+    padding-left:10px ;
+    
+}
+.container-4{
+    background-color: #e3e3e399;
+    padding: 70px 50PX 100PX 50PX;
+}
+.c4-div1{
+    display: flex;
+    justify-content: center;
+}
+.border{
+    background-color: blueviolet;
+    background-size: 1px 1px;
+    width: 50px;
+    height: 5px;
+    border: none;
+    border-radius: 5px ;
+    position: absolute;
+    left: 730px;
+}
+.c4-div2{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin: 25px 25px;
+}
+.s2-c4-img1{
+    width: 400px;
+    height: 56vh;
+    background-color: #ffffff;
+}
+.c4-t{
+    display: flex;
+    justify-content: center;
+}
+.c4-t p {
+    color: #8c8d8f;
+
+}
+.c4-t h1 {
+    font-size : 20px ;
+    color: blueviolet;
+}
+.c4-div3{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.arrow-div{
+    display: flex;
+    justify-content: space-between;
+}
+.arrow-div .i {
+    padding-right: 180px;
+}
+.c5{
+    background-color: #ffffff;
+    padding: 70px 50PX 100PX 50PX;
+}
+.c5-div1{
+    display: flex;
+    justify-content: center;
+}
+.c5-div2{
+    display: flex;
+    justify-content: space-between;
+}
+.c5-div2-img{
+    padding-top: 50px;
+}
+.c5-div2-img img {
+    width: 900px;
+    height: 80vh;
+    border: none;
+    border-radius: 5px;
+
+}
+.c5-div2-t{
+    padding-top: 100px;
+    padding-left: 50px;
+    text-align: center;
+}
+.c5-div2-t2{
+    display: flex;
+    justify-content:center;
+    align-items: flex-end;
+}
+.c5-div2-t2 p{
+    margin: 50px;
+}
+.c5-div2-t2 h5{
+    font-size: 18px;
+    color: #8c8d8f;
+}
+.c5-div2-t2 button{
+    width: 150px;
+    height: 50px;
+    background-color: blueviolet;
+    border: none;
+    border-radius: 5px;
+    font-size: 18px;
+    color: rgb(255, 255, 255);
+    transition: 0.5s;
+}
+.c5-div2-t2 button:hover{
+    background-color: rgb(123, 37, 204);
+    color: #fff;
+    box-shadow: 0px 1px 10px rgb(0, 0, 0);
+}
+.c5-div2-t2 span{
+    color: blueviolet;
+}
+.c5-div2-t2 h1 {
+    color: blueviolet;
+}
+.c5-div2-t2 > p  {
+    font-size: 18px;
+    color: rgb(210, 210, 210);
+}
+/* footer */
+.footer{
+    border-top: 1px solid rgba(207, 207, 207, 0.427);
+    padding: 50px 50px;
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+}
+.left-footer{
+    width:40%;
+}
+.left-ul{
+    display: flex;
+    justify-content: space-between;
+}
+.footer ul , a {
+    list-style: none;
+    text-decoration: none;
+}
+.footer li {
+    padding-bottom: 10px;
+    color: #8c8d8f;
+}
+.right-footer{
+    width:40%;
+}
+.right-ul{
+    display: flex;
+    justify-content: space-between;
+}
+.right-ul-li{
+    display: flex;
+    justify-content: space-between;
+}
+.right-ul-li li i{
+    color: blueviolet;
+    padding: 5px;
+}
+.buttom-footer{
+    background-color: rgb(255, 255, 255);
+    color: #8c8d8f;
+    font-size: 12px;
+    text-align: center;
+    height: 20vh;
+    padding: 50px 50px 50px 0 ;
+}
+.footer input{
+    border: 1px solid gray;
+    border-radius: 5px;
+    position: relative;
+    padding: 10px 20px 11px 20px;
+}
+.footer button{
+    position: absolute;
+    padding: 10px 20px;
+    top: 4039px;
+    right: 69px;
+    background-color: blueviolet;
+    border: none;
+    border-radius: 5px;
+    font-size: 14px;
+    color: rgb(255, 255, 255);
+    z-index: 1;
+}
+.form{
+    padding-top: 100px;
+}
+/* footer end */
